@@ -3,5 +3,5 @@ package vars
 
 def call(){
     echo "Building the application..."
-    sh "npm install"}
+    sh "npm install"
 }
