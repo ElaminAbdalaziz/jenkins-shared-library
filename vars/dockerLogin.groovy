@@ -1,4 +1,4 @@
-buildImage.groovy#!/user/bin/env groovy
+#!/user/bin/env groovy
 import com.example.Docker
 
 def call() {
