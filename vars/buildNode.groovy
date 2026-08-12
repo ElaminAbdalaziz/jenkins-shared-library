@@ -1,7 +1,5 @@
-#!/user/bin/env groovy
-package vars
-
+#!/user/bin/env groov
 def call(){
-    echo "Building the application..."
+    echo "Building the application for branch $BRANCH_NAME"
     sh "npm install"
 }
